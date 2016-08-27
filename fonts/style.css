@@ -1,0 +1,74 @@
+@font-face {
+  font-family:'icomoon';
+  src:  url('icomoon.eot?r5bb0q');
+  src:  url('icomoon.eot?r5bb0q#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?r5bb0q') format('truetype'),
+    url('icomoon.woff?r5bb0q') format('woff'),
+    url('icomoon.svg?r5bb0q#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\61";
+}
+.icon-diamond:before {
+  content: "\62";
+}
+.icon-cup:before {
+  content: "\63";
+}
+.icon-paperplane:before {
+  content: "\64";
+}
+.icon-food:before {
+  content: "\66";
+}
+.contenedor{
+  width: 1300px;
+  height: 340px;
+  overflow: hidden;
+}
+span{
+    font-size: 100px;
+    margin: 5px;
+    padding: 10px;
+    color: #A0A0A0;
+    display: inline-block;
+}
+.caja{
+  text-align: center;
+  width: 220px;
+  height: 315px;
+  padding: 5px;
+  margin: 3px;
+  background-color: #F0EEEE;
+  display: inline-block;
+  float: left;
+}
+h2{
+  text-align: center;
+  width: 200px;
+  margin: 8px;
+  padding: 5px;
+}
+.caja:hover{
+  color: #222CFF;
+  background-color: #fff;
+  transform: scale(1.2);
+}
